@@ -1,0 +1,16 @@
+point 0
+set 0
+jump 13
+: start
+input
+if 0
+jump one
+jump zero
+print
+: one
+print
+jump zero
+: zero
+print
+jump start
+stop
